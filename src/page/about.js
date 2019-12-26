@@ -39,8 +39,8 @@ class AboutPage extends Component {
                       <p className="text-muted">
                         Somos una empresa de compra y venta de piedras preciosa
                         en Nicaragua y parte de Centro America. Procesamos las
-                        piedras preciosa puliendolas e darles formas de
-                        cualquier tipo como asi enviando las piedras puras sin
+                        piedras preciosa puliendolas y moldeando en formas de
+                        cualquier estilo de preferencia del cliente, asi como el envio de las piedras puras sin
                         procesar.
                       </p>
                     </div>
@@ -59,10 +59,9 @@ class AboutPage extends Component {
                       <p className="text-muted">
                         Hemos extraido en minas de San Juan Rio Coco,
                         Siuna,Bonanza y mucho mas. Hacemos estudio de campo en
-                        zonas de potencial extraccion certificando un estudio
-                        completo e mostrando la calidad de la piedra preciosa.
-                        Tenemos mas de 5 años ofreciendo nuestros servicio
-                        trabajando con clientes extranjeros y locales.
+                        zonas de potencial extraccion certificando su calidad atravez de un estudio completo ala piedra preciosa.
+                        Con mas de 5 años de experiencia, ofreciendo nuestros servicio
+                        a clientes extranjeros y locales.
                       </p>
                     </div>
                   </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import mineral from '../img/mineral.png'
+import mineral from "../img/mineral.png";
 class HeaderCompt extends Component {
   constructor(props) {
     super(props);
@@ -7,15 +7,16 @@ class HeaderCompt extends Component {
   }
 
   render() {
-    
     const { titulo } = this.props;
     return (
-
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
+      <nav
+        className="navbar navbar-expand-lg navbar-dark fixed-top"
+        id="mainNav"
+      >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#/">
-          <img src={mineral} alt="Malaquita" width="35" height="30" />
-          {" "+titulo}
+            <img src={mineral} alt="Malaquita" width="35" height="30" />
+            {" " + titulo}
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"
@@ -39,6 +40,11 @@ class HeaderCompt extends Component {
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#/servicios">
                   Servicios
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#/equipo">
+                  Equipo
                 </a>
               </li>
               <li className="nav-item">

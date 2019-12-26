@@ -80,10 +80,10 @@ class PortPage extends Component {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <h2 className="section-heading text-uppercase">
-                  Muesta de Minerales
+                  Muestra de Minerales
                 </h2>
                 <h3 className="section-subheading text-muted">
-                  Estos son algunos de nuestro minerales extraido sin procesar.
+                  Estos son algunos de nuestros minerales extraidos sin procesar.
                 </h3>
               </div>
             </div>
