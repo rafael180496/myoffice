@@ -32,9 +32,9 @@ const Muestra = [
       "https://firebasestorage.googleapis.com/v0/b/minerales-nicaragua.appspot.com/o/imgs%2Fpiedras%2FPiedra4.jpg?alt=media&token=beeb23e7-c87d-4a1e-bacd-f21d9a7586f2",
     alt: "piedra4"
   },{
-    titulo: "Cuarzo",
+    titulo: "Amatista",
     descripcion:
-      "El cuarzo es un mineral compuesto de sílice. Tras el feldespato es el mineral más común de la corteza terrestre estando presente en una gran cantidad de rocas ígneas, metamórficas y sedimentarias. Destaca por su dureza y resistencia a la meteorización en la superficie terrestre.",
+      "La amatista es una variedad macrocristalina violeta del cuarzo. El color puede ser más o menos intenso, según la cantidad de hierro que contenga. Puede presentarse coloreada por zonas con cuarzo transparente o amarillo. Las puntas suelen ser más oscuras o degradarse hasta el cuarzo incoloro.",
     img:
       "https://firebasestorage.googleapis.com/v0/b/minerales-nicaragua.appspot.com/o/imgs%2Fpiedras%2FPiedra5.jpg?alt=media&token=0b7aad3d-7505-46f4-8eed-b2946bda6681",
     alt: "piedra5"
