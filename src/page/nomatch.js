@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { AppSer } from "../service/funciones";
 
 class NotMatch extends Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class NotMatch extends Component {
   }
 
   componentDidMount() {
+    AppSer.NavCamb(false)
     let cod = this.props.match.params.cod;
     if (cod === undefined) {
       cod = 404;
@@ -21,9 +23,17 @@ class NotMatch extends Component {
   render() {
     const { codigo } = this.state;
     return (
-      <div className="text-center">
-        <h1>Lo sentimos error {codigo}</h1>
-      </div>
+      <section className="page-section" id="about">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 text-center">
+              <h1 className="section-heading text-uppercase">
+                Lo sentimos error {codigo}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 }

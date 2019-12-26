@@ -6,12 +6,14 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NotMatch from "./page/nomatch";
 import { ROUTERS_APP } from "./service/router";
 import HeaderCompt from "./components/nav";
-import { AppSer } from "./service/constantes";
+
+import FooterComp from "./components/footer";
+import { ConstApp } from "./service/constantes";
 
 function App() {
   return (
     <Router>
-      <HeaderCompt titulo={AppSer.AppName} ></HeaderCompt>
+      <HeaderCompt titulo={ConstApp.AppName} ></HeaderCompt>
       <Switch>
         {ROUTERS_APP.map(rut => {
           return (
@@ -25,6 +27,7 @@ function App() {
         })}
         <Route component={NotMatch} />
       </Switch>
+      <FooterComp></FooterComp>
     </Router>
   );
 }

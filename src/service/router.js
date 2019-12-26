@@ -2,6 +2,7 @@ import NotMatch from '../page/nomatch'
 import HomePage from '../page/home';
 import AboutPage from '../page/about';
 import ServicePage from '../page/servicio';
+import PortPage from '../page/portafolio';
 
 
 export const  ROUTERS_APP = [
@@ -28,5 +29,11 @@ export const  ROUTERS_APP = [
        pos: 4,
        descrip: "Servicios",
        component: ServicePage
+     },
+     {
+       path: "/portafolio",
+       pos: 5,
+       descrip: "Portafolio",
+       component: PortPage
      }
    ];
